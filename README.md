@@ -2,7 +2,7 @@
 
 ---
 
-**Built with ReactJS**
+**Built with ReactJS & Sass**
 
 ---
 
