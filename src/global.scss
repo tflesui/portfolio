@@ -8,3 +8,11 @@ $colorThree: #f77f00;
 $colorFour: #fcbf49;
 
 $colorFive: #eae2b7;
+
+$width: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
