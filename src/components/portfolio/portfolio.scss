@@ -9,6 +9,10 @@
 
   h1 {
     font-size: 50px;
+
+    @include mobile {
+      font-size: 20px;
+    }
   }
 
   ul {
@@ -16,6 +20,12 @@
     padding: 0;
     list-style: none;
     display: flex;
+
+    @include mobile {
+      margin: 10px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   .container {
@@ -24,6 +34,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
+    @include mobile {
+      width: 100%;
+    }
 
     .item {
       width: 220px;
@@ -37,9 +51,18 @@
       position: relative;
       transition: all 0.5s ease;
 
+      @include mobile {
+        width: 130px;
+        height: 100px;
+      }
+
       h3 {
         position: absolute;
         font-size: 20px;
+
+        @include mobile {
+          font-size: 16px;
+        }
       }
 
       img {
