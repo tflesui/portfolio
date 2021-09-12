@@ -11,11 +11,11 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           MenuText={'Home'}
           MenuLink={'intro'}
         />
-        <MenuItem
+        {/* <MenuItem
           setMenuOpen={setMenuOpen}
           MenuText={'Portfolio'}
           MenuLink={'portfolio'}
-        />
+        /> */}
         <MenuItem
           setMenuOpen={setMenuOpen}
           MenuText={'Works'}
@@ -23,7 +23,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         />
         <MenuItem
           setMenuOpen={setMenuOpen}
-          MenuText={'Testimonials'}
+          MenuText={'About'}
           MenuLink={'testimonials'}
         />
         <MenuItem

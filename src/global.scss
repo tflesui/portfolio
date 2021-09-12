@@ -9,7 +9,7 @@ $colorFour: #fcbf49;
 
 $colorFive: #eae2b7;
 
-$width: 768px;
+$width: 1020px;
 
 @mixin mobile {
   @media (max-width: #{$width}) {
