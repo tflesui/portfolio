@@ -1,5 +1,5 @@
 import './topbar.scss';
-import { Laptop, Mail } from '@material-ui/icons';
+import { Mail } from '@material-ui/icons';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -9,10 +9,6 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <a href='#intro' className='logo'>
             francis
           </a>
-          {/* <div className='itemContainer'>
-            <Laptop className='icon' />
-            <span> github.com/tflesui</span>
-          </div> */}
           <div className='itemContainer'>
             <Mail className='icon' />
             <span> tfrancisthedev@gmail.com</span>
