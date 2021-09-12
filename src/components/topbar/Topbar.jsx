@@ -9,13 +9,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <a href='#intro' className='logo'>
             francis
           </a>
-          <div className='itemContainer'>
+          {/* <div className='itemContainer'>
             <Laptop className='icon' />
             <span> github.com/tflesui</span>
-          </div>
+          </div> */}
           <div className='itemContainer'>
             <Mail className='icon' />
-            <span> tflesui@gmail.com</span>
+            <span> tfrancisthedev@gmail.com</span>
           </div>
         </div>
         <div className='right'>

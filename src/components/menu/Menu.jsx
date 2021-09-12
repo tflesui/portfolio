@@ -18,7 +18,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         /> */}
         <MenuItem
           setMenuOpen={setMenuOpen}
-          MenuText={'Works'}
+          MenuText={'Projects'}
           MenuLink={'works'}
         />
         <MenuItem
