@@ -4,9 +4,39 @@
   // background-color: lightblue;
   background-color: white;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: $mainColor;
 
   @include mobile {
     flex-direction: column;
+  }
+
+  h1 {
+    position: absolute;
+    top: 15px;
+  }
+
+  .links {
+    // padding: 10px;
+    margin: 15px 0;
+    font-size: 2em;
+    align-items: center;
+    display: flex;
+
+    @include mobile {
+      flex-direction: column;
+      font-size: 1.5em;
+    }
+
+    .line {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 5px;
+      margin-right: 20px;
+    }
   }
 
   .left {

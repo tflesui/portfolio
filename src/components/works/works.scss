@@ -9,6 +9,18 @@
   justify-content: center;
   position: relative;
 
+  .title {
+    z-index: 10;
+    color: black;
+    top: 15px;
+    position: absolute;
+    font-size: 20px;
+
+    @include mobile {
+      display: none;
+    }
+  }
+
   .arrow {
     height: 75px;
     position: absolute;
