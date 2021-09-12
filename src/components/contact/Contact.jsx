@@ -12,9 +12,9 @@ export default function Contact() {
 
   return (
     <div className='contact' id='contact'>
-      <div className='left'>
+      {/* <div className='left'>
         <img src='assets/handshake.png' alt='' />
-      </div>
+      </div> */}
       <div className='right'>
         <h2>Contact</h2>
         <form onSubmit={handleSubmit}>
